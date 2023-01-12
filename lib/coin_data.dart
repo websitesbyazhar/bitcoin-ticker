@@ -33,7 +33,6 @@ const List<String> cryptoList = [
 ];
 
 class CoinData {
-  //TODO: Move to .env file (KEY)
   Map<String, String> requestHeaders = {
     'X-CoinAPI-Key': dotenv.env['X-CoinAPI-Key'].toString(),
   };
